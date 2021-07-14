@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 /* head section style */
 .top-section{
@@ -9,6 +10,7 @@ body{
     width: 1440px;
     height: 677px;
     display: flex;
+    margin: 0 auto;
 }
 .top-detail{
     width: 485px;
@@ -42,4 +44,39 @@ body{
     width: 556.01px;
     height: 438px;
     margin: 153px 141px 86px 102px;
+}
+/* main section style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 27px;
+    column-gap: 30px;
+    margin-top: 70px;
+    margin-right: 90%;
+    margin-left: 26%;
+}
+.blog{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 474px;
+
+}
+.blog img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px;
+}
+h2{
+    width: 300px;
+    height: 40px;
+    color: black;
+    font-weight: 700;
+}
+.blog-info{
+    width: 300px;
+    height: 154px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 15px 15px;
 }
