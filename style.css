@@ -145,6 +145,7 @@ footer p{
         flex-direction: column;
         width: 750px;
         height: 550px;
+        margin-left: 0;
     }
     .top-detail{
         margin-left: 0;
