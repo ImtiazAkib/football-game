@@ -53,7 +53,7 @@ body{
     column-gap: 30px;
     margin-top: 70px;
     margin-right: 90%;
-    margin-left: 26%;
+    margin-left: 15%;
 }
 .blog{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -79,4 +79,25 @@ h2{
     font-weight: 400;
     color: #6C6C6C;
     margin: 15px 15px;
+}
+/* footer section */
+footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 215px;
+margin-top: 160px;
+}
+footer img{
+    width: 484px;
+    height: 110px;
+}
+.social-img{
+    font-size: 1.7em;
+    margin-right: 10px;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
 }
