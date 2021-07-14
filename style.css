@@ -105,3 +105,23 @@ footer p{
     font-size: 18px;
     font-weight: 400;
 }
+/* media query */
+@media (max-width:668px) {
+    .top-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 668px;
+        height: 75em;
+    }
+    .top-detail,.top-icon{
+        margin-left: 20px;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        display: flex;
+        margin-top: 60px;
+    }
+    
+}
