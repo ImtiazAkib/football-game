@@ -1,0 +1,45 @@
+/* common style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* head section style */
+.top-section{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    display: flex;
+}
+.top-detail{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 207px 102px 70px 156px;
+}
+.top-icon{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 40px;
+    margin-left: 155px;
+    padding-top: 15px;
+
+}
+.icon-detail{
+    width: 88px;
+    height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0 8px;
+}
+.ar-icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    color: #FFFFFF;
+}
+.top-section img{
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 141px 86px 102px;
+}
